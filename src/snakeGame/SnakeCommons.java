@@ -1,0 +1,14 @@
+package snakeGame;
+
+public interface SnakeCommons {
+	
+	int RANDOMPOSITION = 40;
+	int BOARDWIDTH = 500;
+	int BOARDHEIGHT = 550;
+	int PIXELSIZE = 10;
+	int TOTALPIXELS = (BOARDWIDTH * BOARDHEIGHT) / (PIXELSIZE * PIXELSIZE);
+	int STARTSNAKEX = BOARDWIDTH / 2;
+	int STARTSNAKEY = BOARDHEIGHT / 2;
+	int COLLISION = 7;
+	
+}
